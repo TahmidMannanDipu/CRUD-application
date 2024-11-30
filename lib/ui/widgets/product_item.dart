@@ -96,10 +96,10 @@ class _ProductItemState extends State<ProductItem> {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    Navigator.pop(context); // Close the dialog
+                    Navigator.pop(context);
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.grey, // Use primaryColor for button
+                    backgroundColor: Colors.grey,
                   ),
                   child: const Text(
                     "Cancel",
@@ -110,12 +110,10 @@ class _ProductItemState extends State<ProductItem> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    // Add your deletion logic here
-                    Navigator.pop(context); // Close the dialog
+                    Navigator.pop(context);
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor:
-                        primaryColor, // Use primaryColor for button
+                    backgroundColor: primaryColor,
                   ),
                   child: const Text(
                     "Yes",
